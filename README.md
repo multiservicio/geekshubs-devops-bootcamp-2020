@@ -42,7 +42,7 @@ Para estas sesiones vamos a utilizar muchas tecnologias diferentes. Para agiliza
 
 - VirtualBox
 - Vagrant
-    - Usaremos Ubuntu 18.04 LTS como OS base, `vagrant box download ubuntu/bionic64`
+    - Usaremos Ubuntu 18.04 LTS como OS base, `vagrant box add ubuntu/bionic64`
 -
 
 ----
