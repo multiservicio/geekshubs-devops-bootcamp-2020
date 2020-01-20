@@ -1,0 +1,150 @@
+{
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "editor.fontFamily": "Hack, 'Source Code Pro', Fira Code, monospace",
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 120,
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+    "python.pythonPath": "/usr/local/bin/python3",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.associations": {
+        "*.mustache": "yaml",
+        "*.tpl": "nunjucks"
+    },
+    "python.jediEnabled": false,
+    "workbench.colorCustomizations": {
+        "[Solarized-light]": {
+            "sideBar.background": "#2e3032",
+            "sideBar.foreground": "#d8d6d6c6",
+            "activityBar.background": "#47494b",
+            "statusBar.background": "#47494b",
+            "gitDecoration.modifiedResourceForeground": "#6e9cc9",
+            "list.activeSelectionBackground": "#586e7566",
+            "list.activeSelectionForeground": "#d8d6d6c6",
+            "list.focusBackground": "#586e7555",
+            "list.focusForeground": "#586e7555",
+            "list.highlightForeground": "#d4c7c7",
+            "list.hoverBackground": "#586e7555",
+            "list.inactiveSelectionBackground": "#47494b",
+            "list.inactiveSelectionForeground": "#d8d6d6c6",
+            "terminal.background": "#2e3032",
+            "terminal.border": "#2e3032",
+            "terminalCursor.background": "#586e7566",
+            "terminalCursor.foreground": "#f1e9e9",
+            "terminal.foreground": "#f1e9e9"
+        },
+        "[Oceanic Next (dimmed bg)]": {
+            "panel.background": "#555555",
+            "editor.background": "#2a2c2e",
+            "sideBar.background": "#2e3032",
+            "sideBar.foreground": "#d8d6d6c6",
+            "activityBar.background": "#47494b",
+            "statusBar.background": "#47494b",
+            "gitDecoration.modifiedResourceForeground": "#6e9cc9",
+            "list.activeSelectionBackground": "#586e7566",
+            "list.activeSelectionForeground": "#d8d6d6c6",
+            "list.focusBackground": "#586e7555",
+            "list.focusForeground": "#586e7555",
+            "list.highlightForeground": "#d4c7c7",
+            "list.hoverBackground": "#586e7555",
+            "list.inactiveSelectionBackground": "#47494b",
+            "list.inactiveSelectionForeground": "#d8d6d6c6",
+            "terminal.background": "#2e3032",
+            "terminal.border": "#2e3032",
+            "terminalCursor.background": "#586e7566",
+            "terminalCursor.foreground": "#f1e9e9",
+            "terminal.foreground": "#f1e9e9"
+        }
+    },
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 0,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.keymap": "alternate",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "breadcrumbs.enabled": false,
+    "workbench.settings.editor": "json",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "Variables",
+                "scope": "variable",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "Class Names",
+                "scope": "entity.name.type",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "constant.numeric",
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": "constant.other",
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": "constant.character",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "constant.character.escape",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "name": "Yaml",
+                "scope": [
+                    "entity.name.tag",
+                ],
+                //"settings": {
+                //    "fontStyle": "",
+                //    "foreground": "#859900"
+                //}
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#4588ec"
+                }
+            }
+        ]
+    },
+    "material-icon-theme.showReloadMessage": false,
+    "files.eol": "\n"
+}
