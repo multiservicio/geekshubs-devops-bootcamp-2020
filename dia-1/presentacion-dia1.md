@@ -1,7 +1,4 @@
----
-marp: true
----
-
+autoscale: true
 # [fit] Desplegando
 # [fit] Contenedores
 ---
@@ -13,31 +10,55 @@ SRE lead @ Mercadona Tech
 ![inline](https://storage.googleapis.com/mercadonatech/assets/img/teamimages/MercadonaOnlineTeam20200107-16.jpg)
 
 ---
+# Contenido
+- ¿Por qué contenedores?
+- Estrategias más comunes de despliegue.
+    - Recreate
+    - Rolling Update
+    - Blue-Green / Red-Black / A/B
+    - Shadow
+    - Canary
+- Técnologías más comunes para desplegar contenedores.
+    - Kubernetes
+- Integrando el despliegue en el _DevOps pipeline_ (Continous Deployment)
+
+---
+# Cómo
+
+Por cada una de las estrategias que veamos veremos y haremos algunas de ellas:
+- Manual, `docker run`
+- Manual, `docker-compose`
+- Automática, `ansible`/`chef`/`puppet`/`saltstack`/etc..
+- Automática, `docker swarm`, `kubernetes`
+
+---
 # Agenda
 
 - Día 1:
+    - Introducción al bloque y presentaciones.
     - ¿Por qué contenedores?
     - Estrategias más comunes de despliegue.
         - Recreate
         - Rolling Update
         - Blue-Green / Red-Black / A/B
-        - Shadow
-        - Canary
 
 ---
 # Agenda
 
 - Día 2:
-    - Técnologías más comunes para desplegar contenedores.
-        - Manual, `docker run`
-        - Manual, `docker-compose`
-        - Automática, `ansible`/`chef`/`puppet`/`saltstack`/etc..
-        - Automática, `docker swarm`
-        - Automática, `kubernetes`
-        - Otras
+    - Estrategias más comunes de despliegue.
+        - Shadow
+        - Canary
     - Integrando el despliegue en el _DevOps pipeline_ (Continous Deployment)
         - Manual, `via script`
         - Automático, `Jenkinsfile`
+    - Recapitulación
+
+---
+# ¿Por qué contenedores?
+
+---
+# 2020, dah!
 
 ---
 # ¿Por qué contenedores?
@@ -80,3 +101,8 @@ Ahora, con la irrupción de los contenedores es más sencillo que nunca crear un
 
 ---
 # ¿Por qué contenedores?
+
+`docker run postgres`
+`docker run python`
+`docker run nginx`
+...
