@@ -54,7 +54,7 @@ Vagrant.configure("2") do |config|
     vb.gui = false
     vb.linked_clone = true
     vb.name = "geekshub-bootcamp-container-deployments"
-  
+
     # Customize the amount of memory on the VM:
     vb.memory = 1024 * 4
     vb.cpus = 2
@@ -66,6 +66,8 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", run: "up", inline: <<-SHELL
     apt-get update
   SHELL
+
+  config.vm.provision "iamready", type: "shell", run: "never", path: "./scripts/provisioning/iamready.sh"
 
   config.vm.provision "microk8s", type: "shell", run: "never", path: "./scripts/provisioning/microk8s.sh"
 end

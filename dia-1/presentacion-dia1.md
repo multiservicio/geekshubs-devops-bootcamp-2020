@@ -106,3 +106,20 @@ Ahora, con la irrupción de los contenedores es más sencillo que nunca crear un
 `docker run python`
 `docker run nginx`
 ...
+
+---
+# ¿Qué necesitamos?
+
+Para el curso necesitaremos:
+
+- VirtualBox
+- Vagrant
+    - Usaremos Ubuntu 18.04 LTS como OS base, `vagrant box add ubuntu/bionic64`
+
+
+Según avancemos iremos instalando más cosas.
+
+---
+# Estoy listo?
+
+`vagrant up
