@@ -26,7 +26,7 @@ En esta unidad vamos a trabajar sobre el tema `desplegando contenedores`. Para e
 
 ## Material necesario
 
-Para estas sesiones vamos a utilizar muchas tecnologias diferentes. Para agilizar trataremos de automatizar al máximo las partes que quedan fuera del ámbito de la unidad. Para ello usaremos:
+Para estas sesiones vamos a utilizar muchas tecnologías diferentes. Para agilizar trataremos de automatizar al máximo las partes que quedan fuera del ámbito de la unidad. Para ello usaremos:
 
 > Sería muy recomendable atender con todo preinstalado.
 

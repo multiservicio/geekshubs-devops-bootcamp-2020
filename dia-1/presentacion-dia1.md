@@ -40,13 +40,14 @@ Por cada una de las estrategias que veamos veremos y haremos algunas de ellas:
     - Estrategias más comunes de despliegue.
         - Recreate
         - Rolling Update
-        - Blue-Green / Red-Black / A/B
+    - Kubernetes
 
 ---
 # Agenda
 
 - Día 2:
     - Estrategias más comunes de despliegue.
+        - Blue-Green / Red-Black / A/B
         - Shadow
         - Canary
     - Integrando el despliegue en el _DevOps pipeline_ (Continous Deployment)
