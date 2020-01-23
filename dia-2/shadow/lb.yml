@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: loadbalancer
+  labels:
+    app: loadbalancer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: loadbalancer
+  template:
+    metadata:
+      labels:
+        app: loadbalancer
+    spec:
+      containers:
+      - name: loadbalancer
+        image: lb:v1
+        ports:
+        - containerPort: 80
+      - name: goreplay
+        image: iam404/goreplay:v1.0.0_x64
+        args: ["--input-raw", ":80",  "--output-http", "myapp-v2.default:9000"]
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: loadbalancer
+spec:
+  selector:
+    app: loadbalancer
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
