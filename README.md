@@ -14,7 +14,7 @@ Profesor: Pedro Díaz
 En esta unidad vamos a trabajar sobre el tema `desplegando contenedores`. Para ello se ha dividio en dos sesiones de 5 horas cada una. En total trataremos los siguientes contenidos:
 
 - ¿Por qué contenedores?
-- Estrategias más comunes de despliegue.
+- Estrategias más comunes de despliegue. 
     - Recreate
     - Rolling Update
     - Blue-Green / Red-Black / A/B
