@@ -11,28 +11,18 @@ Profesor: Pedro Díaz
 
 ## Introducción a la unidad.
 
-En esta unidad vamos a trabajar sobre el tema `desplegando contenedores`. Para ello se ha dividio en dos sesiones de 5 horas cada una. En cada uno de los días veremos:
+En esta unidad vamos a trabajar sobre el tema `desplegando contenedores`. Para ello se ha dividio en dos sesiones de 5 horas cada una. En total trataremos los siguientes contenidos:
 
-- Día 1:
-    - ¿Por qué contenedores?
-    - Estrategias más comunes de despliegue.
-        - Recreate
-        - Rolling Update
-        - Blue-Green / Red-Black / A/B
-        - Shadow
-        - Canary
-
-- Día 2:
-    - Técnologías más comunes para desplegar contenedores.
-        - Manual, `docker run`
-        - Manual, `docker-compose`
-        - Automática, `ansible`/`chef`/`puppet`/`saltstack`/etc..
-        - Automática, `docker swarm`
-        - Automática, `kubernetes`
-        - Otras
-    - Integrando el despliegue en el _DevOps pipeline_ (Continous Deployment)
-        - Manual, `via script`
-        - Automático, `Jenkinsfile`
+- ¿Por qué contenedores?
+- Estrategias más comunes de despliegue.
+    - Recreate
+    - Rolling Update
+    - Blue-Green / Red-Black / A/B
+    - Shadow
+    - Canary
+- Técnologías más comunes para desplegar contenedores.
+    - Kubernetes
+- Integrando el despliegue en el _DevOps pipeline_ (Continous Deployment)
 
 ## Material necesario
 

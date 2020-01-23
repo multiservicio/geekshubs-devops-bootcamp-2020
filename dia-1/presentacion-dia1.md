@@ -29,7 +29,7 @@ Por cada una de las estrategias que veamos veremos y haremos algunas de ellas:
 - Manual, `docker run`
 - Manual, `docker-compose`
 - Automática, `ansible`/`chef`/`puppet`/`saltstack`/etc..
-- Automática, `docker swarm`, `kubernetes`
+- Automática, `kubernetes`
 
 ---
 # Agenda
@@ -122,4 +122,11 @@ Según avancemos iremos instalando más cosas.
 ---
 # Estoy listo?
 
-`vagrant up
+`vagrant up --provision-with amiready`
+
+Deberemos ver:
+
+> default: Yes! I am ready!
+
+---
+# ¡Empecemos!

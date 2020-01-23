@@ -67,7 +67,7 @@ Vagrant.configure("2") do |config|
     apt-get update
   SHELL
 
-  config.vm.provision "iamready", type: "shell", run: "never", path: "./scripts/provisioning/iamready.sh"
+  config.vm.provision "amiready", type: "shell", run: "never", path: "./scripts/provisioning/amiready.sh"
 
   config.vm.provision "microk8s", type: "shell", run: "never", path: "./scripts/provisioning/microk8s.sh"
 end
