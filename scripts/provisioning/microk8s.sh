@@ -8,3 +8,6 @@ sudo microk8s.status --wait-ready
 
 echo "Turning on standard services"
 sudo microk8s.enable dns dashboard registry
+
+echo "Installing docker daemon"
+sudo snap install docker

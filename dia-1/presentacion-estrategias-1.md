@@ -71,7 +71,7 @@ docker build -t myapp:v1 .
 docker run --rm -d -p 8080:80 myapp:v1
 ```
 
-Podemos comprobar que está desplegada con: 
+Podemos comprobar que está desplegada con:
 `curl localhost:8080`
 
 y como respuesta:

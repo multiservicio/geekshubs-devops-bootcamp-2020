@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: loadbalancer
+  labels:
+    app: loadbalancer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: loadbalancer
+  template:
+    metadata:
+      labels:
+        app: loadbalancer
+    spec:
+      containers:
+      - name: loadbalancer
+        image: lb:v1
+        ports:
+        - containerPort: 80
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: loadbalancer
+spec:
+  selector:
+    app: loadbalancer
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
