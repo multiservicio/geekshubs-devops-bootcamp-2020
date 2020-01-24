@@ -1,4 +1,5 @@
 autoscale: true
+theme: pedro
 # [fit] Estrategias
 # [fit] De despliegue
 ---

@@ -1,4 +1,5 @@
 autoscale: true
+theme: pedro
 # [fit] Kubernetes
 ## [fit] microk8s
 ---

@@ -1,4 +1,5 @@
 autoscale: true
+theme: pedro
 # [fit] Desplegando
 # [fit] Contenedores
 ---
