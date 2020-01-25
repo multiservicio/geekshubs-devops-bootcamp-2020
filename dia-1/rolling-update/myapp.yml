@@ -10,7 +10,7 @@ spec:
     matchLabels:
       app: myapp
   strategy:
-    type: RollingUpdate
+    type: Recreate
   template:
     metadata:
       labels:

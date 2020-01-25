@@ -68,9 +68,9 @@ Vamos a copiarle las imágenes de docker a kubernetes para que las "encuentre".
 sudo docker save myapp:v1 > myapp:v1.tar
 sudo docker save myapp:v2 > myapp:v2.tar
 sudo docker save lb:v1 > lb:v1.tar
-microk8s.ctr import myapp:v1.tar
-microk8s.ctr import myapp:v2.tar
-microk8s.ctr image import lb:v1.tar
+sudo microk8s.ctr image import myapp:v1.tar
+sudo microk8s.ctr image import myapp:v2.tar
+sudo microk8s.ctr image import lb:v1.tar
 ```
 
 ---
